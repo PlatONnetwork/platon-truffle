@@ -25,13 +25,13 @@ Using `artifacts.require()` within your tests works the same way as using it wit
 
 ## Using web3
 
-A `web3` instance is available in each test file, configured to the correct provider. So calling `web3.eth.getBalance` just works!
+A `web3` instance is available in each test file, configured to the correct provider. So calling `web3.platon.getBalance` just works!
 
 ## Examples
 
 ### Using `.then`
 
-Here's an example test provided in the [MetaCoin Truffle Box](https://truffleframework.com/boxes/metacoin). Note the use of the `contract()` function, the `accounts` array for specifying available PlatON accounts, and our use of `artifacts.require()` for interacting directly with our contracts.
+Here's an example test provided in the `MetaCoin Truffle Box`. Note the use of the `contract()` function, the `accounts` array for specifying available PlatON accounts, and our use of `artifacts.require()` for interacting directly with our contracts.
 
 File: `./test/metacoin.js`
 
@@ -53,7 +53,7 @@ contract("MetaCoin", accounts => {
   it("should call a function that depends on a linked library", () => {
     let meta;
     let metaCoinBalance;
-    let metaCoinEthBalance;
+    let metaCoinLatBalance;
 
     return MetaCoin.deployed()
       .then(instance => {
@@ -62,14 +62,14 @@ contract("MetaCoin", accounts => {
       })
       .then(outCoinBalance => {
         metaCoinBalance = outCoinBalance.toNumber();
-        return meta.getBalanceInEth.call(accounts[0]);
+        return meta.getBalanceInLat.call(accounts[0]);
       })
-      .then(outCoinBalanceEth => {
-        metaCoinEthBalance = outCoinBalanceEth.toNumber();
+      .then(outCoinBalanceLat => {
+        metaCoinLatBalance = outCoinBalanceLat.toNumber();
       })
       .then(() => {
         assert.equal(
-          metaCoinEthBalance,
+          metaCoinLatBalance,
           2 * metaCoinBalance,
           "Library function returned unexpected function, linkage may be broken"
         );
@@ -157,9 +157,9 @@ contract("2nd MetaCoin test", async accounts => {
     let meta = await MetaCoin.deployed();
     let outCoinBalance = await meta.getBalance.call(accounts[0]);
     let metaCoinBalance = outCoinBalance.toNumber();
-    let outCoinBalanceEth = await meta.getBalanceInEth.call(accounts[0]);
-    let metaCoinEthBalance = outCoinBalanceEth.toNumber();
-    assert.equal(metaCoinEthBalance, 2 * metaCoinBalance);
+    let outCoinBalanceLat = await meta.getBalanceInLat.call(accounts[0]);
+    let metaCoinLatBalance = outCoinBalanceLat.toNumber();
+    assert.equal(metaCoinLatBalance, 2 * metaCoinBalance);
   });
 
   it("should send coin correctly", async () => {
@@ -210,10 +210,6 @@ truffle test ./test/metacoin.js
 ```
 
 See the full [command reference](../reference/truffle-commands#test) for more information.
-
-## Advanced
-
-Truffle gives you access to Mocha's configuration so you can change how Mocha behaves. See the [project configuration](/docs/advanced/configuration#mocha) section for more details.
 
 ## TypeScript File Support
 
