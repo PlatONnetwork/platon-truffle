@@ -39,7 +39,7 @@ describe("production", function() {
         { keepAlive: false }
       );
       web3 = new Web3(provider);
-      networkId = await web3.eth.net.getId();
+      networkId = await web3.platon.net.getId();
     });
 
     it("auto dry-runs and honors confirmations option", function(done) {
@@ -101,7 +101,7 @@ describe("production", function() {
         { keepAlive: false }
       );
       web3 = new Web3(provider);
-      networkId = await web3.eth.net.getId();
+      networkId = await web3.platon.net.getId();
     });
 
     it("migrates without dry-run", function(done) {

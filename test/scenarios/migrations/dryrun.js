@@ -38,7 +38,7 @@ describe("migrate (dry-run)", function() {
       keepAlive: false
     });
     web3 = new Web3(provider);
-    networkId = await web3.eth.net.getId();
+    networkId = await web3.platon.net.getId();
   });
 
   it("uses the dry-run option", function(done) {
