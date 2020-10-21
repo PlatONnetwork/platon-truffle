@@ -18,7 +18,7 @@ $ sudo chmod -R 777 /usr/local/node-v10.12.0-linux-x64/lib/node_modules/
 ## Install alaya-truffle
 
 ```bash
-$ npm install -g alaya-truffle@0.13.1
+$ npm install -g alaya-truffle@0.13.2
 $ sudo ln -s /usr/local/node-v10.12.0-linux-x64/bin/* /usr/bin/
 $ alaya-truffle version
 ```
