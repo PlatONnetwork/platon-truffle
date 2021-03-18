@@ -9,18 +9,18 @@
     "prepare": "yarn build",
     "test": "yarn build && mocha --exit -r ts-node/register test/**/*.test.ts"
   },
-  "repository": "https://github.com/trufflesuite/truffle/tree/master/packages/config",
+  "repository": "https://github.com/PlatONnetwork/platon-truffle/tree/1.0.0-develop/packages/config",
   "keywords": [
     "ethereum",
     "truffle",
     "config"
   ],
-  "author": "Tim Coulter <tim@trufflesuite.com>",
+  "author": "platonnetwork <npm@platon.network>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/trufflesuite/truffle/issues"
+    "url": "https://github.com/PlatONnetwork/platon-truffle/issues"
   },
-  "homepage": "https://github.com/trufflesuite/truffle/tree/master/packages/config#readme",
+  "homepage": "https://github.com/PlatONnetwork/platon-truffle/tree/1.0.0-develop/packages/config#readme",
   "devDependencies": {
     "@types/configstore": "^4.0.0",
     "@types/find-up": "^2.1.0",

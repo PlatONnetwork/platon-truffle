@@ -2,8 +2,8 @@
   "name": "@truffle/compile-vyper",
   "description": "Vyper compiler support",
   "license": "MIT",
-  "author": "Evgeniy Filatov <evgeniyfilatov@gmail.com>",
-  "repository": "https://github.com/trufflesuite/truffle/tree/master/packages/compile-vyper",
+  "author": "platonnetwork <npm@platon.network>",
+  "repository": "https://github.com/PlatONnetwork/platon-truffle/tree/1.0.0-develop/packages/compile-vyper",
   "version": "1.0.37",
   "main": "index.js",
   "scripts": {
@@ -22,8 +22,8 @@
   },
   "keywords": [
     "compile",
-    "ethereum",
-    "truffle",
+    "PlatON",
+    "platon-truffle",
     "vyper"
   ],
   "publishConfig": {

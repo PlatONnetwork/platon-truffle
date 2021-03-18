@@ -2,11 +2,11 @@
   "name": "@truffle/provider",
   "description": "Beefed up provider module for Truffle",
   "license": "MIT",
-  "author": "Tim Coulter <tim@trufflesuite.com>",
-  "homepage": "https://github.com/trufflesuite/truffle/tree/master/packages/provider#readme",
-  "repository": "https://github.com/trufflesuite/truffle/tree/master/packages/provider",
+  "author": "platonnetwork <npm@platon.network>",
+  "homepage": "https://github.com/PlatONnetwork/platon-truffle/tree/1.0.0-develop/packages/provider#readme",
+  "repository": "https://github.com/PlatONnetwork/platon-truffle/tree/1.0.0-develop/packages/provider",
   "bugs": {
-    "url": "https://github.com/trufflesuite/truffle/issues"
+    "url": "https://github.com/PlatONnetwork/platon-truffle/issues"
   },
   "version": "0.2.3",
   "main": "index.js",
@@ -27,10 +27,10 @@
     "@platonnetwork/web3-providers-ws": "1.0.0"
   },
   "keywords": [
-    "ethereum",
+    "PlatON",
     "http",
     "provider",
-    "truffle"
+    "platon-truffle"
   ],
   "publishConfig": {
     "access": "public"

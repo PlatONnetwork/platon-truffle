@@ -13,9 +13,9 @@
     "build": "node_modules/.bin/ttsc",
     "start": "node_modules/.bin/ttsc --watch"
   },
-  "repository": "https://github.com/trufflesuite/truffle/tree/master/packages/codec",
+  "repository": "https://github.com/PlatONnetwork/platon-truffle/tree/1.0.0-develop/packages/codec",
   "keywords": [
-    "ethereum",
+    "PlatON",
     "solidity",
     "contract",
     "state",
@@ -23,12 +23,12 @@
     "encoder",
     "abi"
   ],
-  "author": "Harry Altman <harry@trufflesuite.com>, g. nicholas d'andrea <gnidan@trufflesuite.com>",
+  "author": "platonnetwork <npm@platon.network>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/trufflesuite/truffle/issues"
+    "url": "https://github.com/PlatONnetwork/platon-truffle/issues"
   },
-  "homepage": "https://github.com/trufflesuite/truffle#readme",
+  "homepage": "https://github.com/PlatONnetwork/platon-truffle#readme",
   "publishConfig": {
     "access": "public"
   },

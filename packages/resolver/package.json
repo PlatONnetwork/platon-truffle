@@ -6,19 +6,19 @@
   "scripts": {
     "test": "mocha"
   },
-  "repository": "https://github.com/trufflesuite/truffle/tree/master/packages/resolver",
+  "repository": "https://github.com/PlatONnetwork/platon-truffle/tree/1.0.0-develop/packages/resolver",
   "keywords": [
-    "ethereum",
-    "truffle",
+    "PlatON",
+    "platon-truffle",
     "dependencies",
     "resolver"
   ],
-  "author": "Tim Coulter <tim@trufflesuite.com>",
+  "author": "platonnetwork <npm@platon.network>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/trufflesuite/truffle/issues"
+    "url": "https://github.com/PlatONnetwork/platon-truffle/issues"
   },
-  "homepage": "https://github.com/trufflesuite/truffle/tree/master/packages/resolver#readme",
+  "homepage": "https://github.com/PlatONnetwork/platon-truffle/tree/1.0.0-develop/packages/resolver#readme",
   "dependencies": {
     "@truffle/contract": "^4.1.1",
     "@truffle/expect": "^0.0.13",

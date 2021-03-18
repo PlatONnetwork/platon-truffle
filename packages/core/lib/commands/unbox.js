@@ -106,7 +106,7 @@ const command = {
         option: "<box_name>",
         description:
           "Name of the truffle box. If no box_name is specified, a default " +
-          "truffle box will be downloaded."
+          "platon-truffle box will be downloaded."
       },
       {
         option: "--force",

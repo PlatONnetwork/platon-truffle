@@ -220,7 +220,7 @@ class GanacheMixin {
   // wait for Ganache to be ready then emit signal to client socket
   connect(supervisor, socket) {
     this.ready.then(() => {
-      supervisor.emit(socket, "truffle.ready");
+      supervisor.emit(socket, "platon-truffle.ready");
     });
   }
 
@@ -273,7 +273,7 @@ const ipcLogger = new Logger();
 const ganacheLogger = new Logger();
 
 const supervisor = new Supervisor({
-  appspace: "truffle.",
+  appspace: "platon-truffle.",
   id: ipcNetwork,
   retry: 1500,
   logger: ipcLogger.log.bind(ipcLogger)
@@ -285,6 +285,6 @@ options.logger = { log: ganacheLogger.log.bind(ganacheLogger) };
 
 supervisor.use(new LifecycleMixin());
 supervisor.use(new GanacheMixin(options));
-supervisor.use(new LoggerMixin(ipcLogger, "truffle.ipc.log"));
-supervisor.use(new LoggerMixin(ganacheLogger, "truffle.ganache.log"));
+supervisor.use(new LoggerMixin(ipcLogger, "platon-truffle.ipc.log"));
+supervisor.use(new LoggerMixin(ganacheLogger, "platon-truffle.ganache.log"));
 supervisor.start();

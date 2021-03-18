@@ -2,11 +2,11 @@
   "name": "@truffle/deployer",
   "description": "Light deployment module for easily deploying Ethereum contracts",
   "license": "MIT",
-  "author": "Tim Coulter <tim@trufflesuite.com>",
-  "homepage": "https://github.com/trufflesuite/truffle/tree/master/packages/deployer#readme",
-  "repository": "https://github.com/trufflesuite/truffle/tree/master/packages/deployer",
+  "author": "platonnetwork <npm@platon.network>",
+  "homepage": "https://github.com/PlatONnetwork/platon-truffle/tree/1.0.0-develop/packages/deployer#readme",
+  "repository": "https://github.com/PlatONnetwork/platon-truffle/tree/1.0.0-develop/packages/deployer",
   "bugs": {
-    "url": "https://github.com/trufflesuite/truffle/issues"
+    "url": "https://github.com/PlatONnetwork/platon-truffle/issues"
   },
   "version": "3.1.1",
   "main": "index.js",
@@ -34,9 +34,9 @@
   "keywords": [
     "contracts",
     "deployment",
-    "ethereum",
+    "PlatON",
     "solidity",
-    "truffle"
+    "platon-truffle"
   ],
   "publishConfig": {
     "access": "public"

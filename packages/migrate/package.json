@@ -2,11 +2,11 @@
   "name": "@truffle/migrate",
   "description": "On-chain migrations management",
   "license": "MIT",
-  "author": "Tim Coulter <tim@trufflesuite.com>",
-  "homepage": "https://github.com/trufflesuite/truffle/tree/master/packages/migrate#readme",
-  "repository": "https://github.com/trufflesuite/truffle/tree/master/packages/migrate",
+  "author": "platonnetwork <npm@platon.network>",
+  "homepage": "https://github.com/PlatONnetwork/platon-truffle/tree/1.0.0-develop/packages/migrate#readme",
+  "repository": "https://github.com/PlatONnetwork/platon-truffle/tree/1.0.0-develop/packages/migrate",
   "bugs": {
-    "url": "https://github.com/trufflesuite/truffle/issues"
+    "url": "https://github.com/PlatONnetwork/platon-truffle/issues"
   },
   "version": "3.1.1",
   "main": "index.js",
@@ -30,9 +30,9 @@
   },
   "keywords": [
     "deployment",
-    "ethereum",
+    "PlatON",
     "migrations",
-    "truffle"
+    "platon-truffle"
   ],
   "publishConfig": {
     "access": "public"

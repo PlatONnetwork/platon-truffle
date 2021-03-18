@@ -36,19 +36,19 @@
   "scripts": {
     "test": "./scripts/test.sh"
   },
-  "repository": "https://github.com/trufflesuite/truffle/tree/master/packages/compile-solidity",
+  "repository": "https://github.com/PlatONnetwork/platon-truffle/tree/1.0.0-develop/packages/compile-solidity",
   "keywords": [
-    "ethereum",
-    "truffle",
+    "PlatON",
+    "platon-truffle",
     "compile",
     "solidity"
   ],
-  "author": "Tim Coulter <tim@trufflesuite.com>",
+  "author": "platonnetwork <npm@platon.network>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/trufflesuite/truffle/issues"
+    "url": "https://github.com/PlatONnetwork/platon-truffle/issues"
   },
-  "homepage": "https://github.com/trufflesuite/compile-solidity#readme",
+  "homepage": "https://github.com/PlatONnetwork/platon-truffle/tree/1.0.0-develop/packages/compile-solidity#readme",
   "publishConfig": {
     "access": "public"
   }

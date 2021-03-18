@@ -2,11 +2,11 @@
   "name": "@truffle/debugger",
   "description": "Core functionality for debugging Solidity files built with Truffle",
   "license": "MIT",
-  "author": "Tim Coulter <tim@trufflesuite.com>",
-  "homepage": "https://github.com/trufflesuite/truffle/tree/master/packages/debugger#readme",
-  "repository": "https://github.com/trufflesuite/truffle/tree/master/packages/debugger",
+  "author": "platonnetwork <npm@platon.network>",
+  "homepage": "https://github.com/PlatONnetwork/platon-truffle/tree/1.0.0-develop/packages/debugger#readme",
+  "repository": "https://github.com/PlatONnetwork/platon-truffle/tree/1.0.0-develop/packages/debugger",
   "bugs": {
-    "url": "https://github.com/trufflesuite/truffle/issues"
+    "url": "https://github.com/PlatONnetwork/platon-truffle/issues"
   },
   "version": "6.1.0",
   "main": "dist/debugger.js",
@@ -73,9 +73,9 @@
   },
   "keywords": [
     "debugger",
-    "ethereum",
+    "PlatON",
     "solidity",
-    "truffle"
+    "platon-truffle"
   ],
   "publishConfig": {
     "access": "public"

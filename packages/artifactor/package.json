@@ -1,10 +1,10 @@
 {
   "private": false,
   "name": "@truffle/artifactor",
-  "description": "A contract packager for Ethereum and Javascript",
+  "description": "A contract packager for PlatON and Javascript",
   "license": "MIT",
-  "author": "Tim Coulter",
-  "repository": "https://github.com/trufflesuite/truffle/tree/master/packages/artifactor",
+  "author": "platonnetwork <npm@platon.network>",
+  "repository": "https://github.com/PlatONnetwork/platon-truffle/tree/1.0.0-develop/packages/artifactor",
   "version": "4.0.40",
   "main": "dist/index.js",
   "scripts": {
