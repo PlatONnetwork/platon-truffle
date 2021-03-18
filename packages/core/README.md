@@ -22,7 +22,7 @@ Truffle is a development environment, testing framework and asset pipeline for E
 ### Install
 
 ```
-$ npm install -g truffle
+$ npm install -g platon-truffle
 ```
 
 ### Quick Usage
@@ -30,10 +30,10 @@ $ npm install -g truffle
 For a default set of contracts and tests, run the following within an empty project directory:
 
 ```
-$ truffle init
+$ platon-truffle init
 ```
 
-From there, you can run `truffle compile`, `truffle migrate` and `truffle test` to compile your contracts, deploy those contracts to the network, and run their associated unit tests.
+From there, you can run `platon-truffle compile`, `platon-truffle migrate` and `platon-truffle test` to compile your contracts, deploy those contracts to the network, and run their associated unit tests.
 
 See [the documentation](http://truffleframework.com/docs/) for more details.
 

@@ -17,14 +17,14 @@
   "dependencies": {
     "@truffle/error": "^0.0.8",
     "@truffle/interface-adapter": "^0.4.0",
-    "@platonnetwork/web3": "0.13.0"
+    "@platonnetwork/web3": "1.0.0"
   },
   "devDependencies": {
-    "@platonnetwork/ganache-core": "0.13.1",
+    "@platonnetwork/ganache-core": "1.0.0",
     "mocha": "5.2.0",
-    "@platonnetwork/web3-providers-http": "0.13.0",
-    "@platonnetwork/web3-providers-ipc": "0.13.0",
-    "@platonnetwork/web3-providers-ws": "0.13.0"
+    "@platonnetwork/web3-providers-http": "1.0.0",
+    "@platonnetwork/web3-providers-ipc": "1.0.0",
+    "@platonnetwork/web3-providers-ws": "1.0.0"
   },
   "keywords": [
     "ethereum",

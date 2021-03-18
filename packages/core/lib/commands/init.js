@@ -24,7 +24,7 @@ var command = {
     }
 
     // defer to `truffle unbox` command with "bare" box as arg
-    const url = "https://github.com/truffle-box/bare-box.git";
+    const url = "https://github.com/PlatONnetwork/truffle-box_bare-box";
     options._ = [url, inputPath];
 
     UnboxCommand.run(options, done);

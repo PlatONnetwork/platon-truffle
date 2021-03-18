@@ -70,7 +70,7 @@ Your migration function can accept other parameters as well. See the examples be
 
 ## Initial migration
 
-platon-truffle requires you to have a Migrations contract in order to use the Migrations feature. This contract must contain a specific interface, but you're free to edit this contract at will. For most projects, this contract will be deployed initially as the first migration and won't be updated again. You will also receive this contract by default when creating a new project with `truffle init`.
+platon-truffle requires you to have a Migrations contract in order to use the Migrations feature. This contract must contain a specific interface, but you're free to edit this contract at will. For most projects, this contract will be deployed initially as the first migration and won't be updated again. You will also receive this contract by default when creating a new project with `platon-truffle init`.
 
 FileName: `contracts/Migrations.sol`
 
@@ -190,7 +190,7 @@ deployer.deploy(A, arg1, arg2, ...);
 deployer.deploy(A, {overwrite: false});
 
 // Set a maximum amount of gas and `from` address for the deployment
-deployer.deploy(A, {gas: 4612388, from: "lax...."});
+deployer.deploy(A, {gas: 4612388, from: "lat...."});
 
 // Deploying multiple contracts as an array is now deprecated.
 // This used to be quicker than writing three `deployer.deploy()` statements as the deployer
