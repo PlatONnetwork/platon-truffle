@@ -32,7 +32,7 @@ const command = {
     "skip-dry-run": {
       describe: "Skip the test or 'dry run' migrations",
       type: "boolean",
-      default: false
+      default: true
     },
     "f": {
       describe: "Specify a migration number to run from",

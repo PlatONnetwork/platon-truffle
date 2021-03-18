@@ -207,18 +207,18 @@ The result object that gets returned looks like this:
       transactionHash: '0x728b4d1983cd00d93ae00b7adf76f78c1b32d922de636ead42e93f70cf58cdc9',
       blockHash: '0xdce5e6c580267c9bf1d82bf0a167fa60509ef9fc520b8619d8183a8373a42035',
       blockNumber: 19,
-      address: 'lax1qddc48jz0kfaz78z6gkkqzmhjutkj6p3mnfzep',
+      address: 'lat1qddc48jz0kfaz78z6gkkqzmhjutkj6p3mnfzep',
       type: 'mined',
       id: 'log_70be22b0',
       event: 'Transfer',
       args:
         Result {
-          '0': 'lax10l4el2j6a58a237vcu8spsvam62754x50tg2yp',
-          '1': 'lax10l4el2j6a58a237vcu8spsvam62754x50tg2yp',
+          '0': 'lat10l4el2j6a58a237vcu8spsvam62754x50tg2yp',
+          '1': 'lat10l4el2j6a58a237vcu8spsvam62754x50tg2yp',
           '2': <BN: 1>,
           __length__: 3,
-          _from: 'lax10l4el2j6a58a237vcu8spsvam62754x50tg2yp',
-          _to: 'lax10l4el2j6a58a237vcu8spsvam62754x50tg2yp',
+          _from: 'lat10l4el2j6a58a237vcu8spsvam62754x50tg2yp',
+          _to: 'lat10l4el2j6a58a237vcu8spsvam62754x50tg2yp',
           _value: <BN: 1>
         }
     }

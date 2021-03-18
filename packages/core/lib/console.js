@@ -72,7 +72,7 @@ class Console extends EventEmitter {
         const abstractions = this.provision();
 
         this.repl.start({
-          prompt: "truffle(" + this.options.network + ")> ",
+          prompt: "platon-truffle(" + this.options.network + ")> ",
           context: {
             web3: this.web3,
             interfaceAdapter: this.interfaceAdapter,

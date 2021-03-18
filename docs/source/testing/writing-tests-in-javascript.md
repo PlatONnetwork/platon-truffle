@@ -264,7 +264,7 @@ If you have already deployed a smart contract and do not want to redeploy, you c
 ```javascript
 const waitTime = 10000;
 let contract = undefined;
-let contractAddress = "lax18usjasf74475p846yj5yc2rd6xjj0mhacj9u4t";
+let contractAddress = "lat18usjasf74475p846yj5yc2rd6xjj0mhacj9u4t";
 
 describe("wasm unit test (you must update config before run this test)", function () {
     before("deploy contract", async function () {

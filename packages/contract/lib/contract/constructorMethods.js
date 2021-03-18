@@ -5,6 +5,7 @@ const {
 const utils = require("../utils");
 const execute = require("../execute");
 const bootstrap = require("./bootstrap");
+const abi = require('@platonnetwork/web3-eth-abi');
 
 module.exports = Contract => ({
   configureNetwork({ networkType, provider } = {}) {
@@ -56,7 +57,7 @@ module.exports = Contract => ({
     return execute.deploy.call(this, constructorABI)(...arguments);
   },
 
-  async at(address) {
+  async at(address, netType='lat') {
     if (
       address == null ||
       typeof address !== "string" ||
@@ -69,6 +70,7 @@ module.exports = Contract => ({
 
     try {
       await this.detectNetwork();
+      abi.setNetType(netType);
       const onChainCode = await this.interfaceAdapter.getCode(address);
       await utils.checkCode(onChainCode, this.contractName, address);
       return new this(address);

@@ -159,8 +159,8 @@ You can create this blockchain and interact with it using scripts/node/start.sh 
       ----------------------
       > transaction hash:    0x3fd222279dad48583a3320decd0a2d12e82e728ba9a0f19bdaaff98c72a030a2
       > Blocks: 0            Seconds: 0
-      > contract address:    lax15zk6km5znjqc65x8tutulnpwzkla2knrcv4w7e
-      > account:             lax1vfesvzg2h2e6dc2qp6f5t0rqc79ghm6hwsuf63
+      > contract address:    lat15zk6km5znjqc65x8tutulnpwzkla2knrcv4w7e
+      > account:             lat1vfesvzg2h2e6dc2qp6f5t0rqc79ghm6hwsuf63
       > balance:             99.99445076
       > gas used:            277462
       > gas price:           20 gvon
@@ -179,8 +179,8 @@ You can create this blockchain and interact with it using scripts/node/start.sh 
       ----------------------
       > transaction hash:    0x97e8168f1c05fc40dd8ffc529b9a2bf45cc7c55b07b6b9a5a22173235ee247b6
       > Blocks: 0            Seconds: 0
-      > contract address:    lax1lvulathn4slagm3pydmgu4vmee4avwxkxl4trl
-      > account:             lax1vfesvzg2h2e6dc2qp6f5t0rqc79ghm6hwsuf63
+      > contract address:    lat1lvulathn4slagm3pydmgu4vmee4avwxkxl4trl
+      > account:             lat1vfesvzg2h2e6dc2qp6f5t0rqc79ghm6hwsuf63
       > balance:             99.9914458
       > gas used:            108240
       > gas price:           20 gvon
@@ -189,14 +189,14 @@ You can create this blockchain and interact with it using scripts/node/start.sh 
 
       Linking
       -------
-      * Contract: MetaCoin <--> Library: ConvertLib (at address: lax1lvulathn4slagm3pydmgu4vmee4avwxkxl4trl)
+      * Contract: MetaCoin <--> Library: ConvertLib (at address: lat1lvulathn4slagm3pydmgu4vmee4avwxkxl4trl)
 
       Deploying 'MetaCoin'
       --------------------
       > transaction hash:    0xee4994097c10e7314cc83adf899d67f51f22e08b920e95b6d3f75c5eb498bde4
       > Blocks: 0            Seconds: 0
-      > contract address:    lax1dzg6cn3w70dfhjyvjmldhj02f4kc3amgzf680t
-      > account:             lax1vfesvzg2h2e6dc2qp6f5t0rqc79ghm6hwsuf63
+      > contract address:    lat1dzg6cn3w70dfhjyvjmldhj02f4kc3amgzf680t
+      > account:             lat1vfesvzg2h2e6dc2qp6f5t0rqc79ghm6hwsuf63
       > balance:             99.98449716
       > gas used:            347432
       > gas price:           20 gvon
