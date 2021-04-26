@@ -2,11 +2,11 @@
   "name": "@truffle/external-compile",
   "description": "Wrapper to compile Truffle contracts with arbitrary shell command",
   "license": "MIT",
-  "author": "g. nicholas d'andrea <gnidan@users.noreply.github.com>",
-  "homepage": "https://github.com/trufflesuite/truffle#readme",
-  "repository": "https://github.com/trufflesuite/truffle/tree/master/packages/external-compile",
+  "author": "platonnetwork <npm@platon.network>",
+  "homepage": "https://github.com/PlatONnetwork/platon-truffle#readme",
+  "repository": "https://github.com/PlatONnetwork/platon-truffle/tree/1.0.0-develop/packages/external-compile",
   "bugs": {
-    "url": "https://github.com/trufflesuite/truffle/issues"
+    "url": "https://github.com/PlatONnetwork/platon-truffle/issues"
   },
   "version": "1.0.23",
   "main": "index.js",
@@ -26,9 +26,9 @@
     "temp": "^0.8.3"
   },
   "keywords": [
-    "ethereum",
+    "PlatON",
     "smart-contract",
-    "truffle"
+    "platon-truffle"
   ],
   "publishConfig": {
     "access": "public"

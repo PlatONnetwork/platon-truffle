@@ -2,11 +2,11 @@
   "name": "@truffle/blockchain-utils",
   "description": "Utilities for identifying and managing blockchains",
   "license": "MIT",
-  "author": "Tim Coulter <tim@trufflesuite.com>",
-  "homepage": "https://github.com/trufflesuite/truffle/tree/master/packages/blockchain-utils#readme",
-  "repository": "https://github.com/trufflesuite/truffle/tree/master/packages/blockchain-utils",
+  "author": "platonnetwork <npm@platon.network>",
+  "homepage": "https://github.com/PlatONnetwork/platon-truffle/tree/1.0.0-develop/packages/blockchain-utils#readme",
+  "repository": "https://github.com/PlatONnetwork/platon-truffle/tree/1.0.0-develop/packages/blockchain-utils",
   "bugs": {
-    "url": "https://github.com/trufflesuite/truffle/issues"
+    "url": "https://github.com/PlatONnetwork/platon-truffle/issues"
   },
   "version": "0.0.16",
   "main": "dist/index.js",
@@ -26,8 +26,8 @@
   },
   "keywords": [
     "blockchain",
-    "ethereum",
-    "truffle"
+    "PlatON",
+    "platon-truffle"
   ],
   "publishConfig": {
     "access": "public"

@@ -1,12 +1,12 @@
 {
   "name": "@truffle/contract",
-  "description": "A better contract abstraction for Ethereum (formerly EtherPudding)",
+  "description": "A better contract abstraction for PlatON",
   "license": "MIT",
-  "author": "Tim Coulter <tim@trufflesuite.com>",
-  "homepage": "https://github.com/trufflesuite/truffle/tree/master/packages/contract#readme",
-  "repository": "https://github.com/trufflesuite/truffle/tree/master/packages/contract",
+  "author": "platonnetwork <npm@platon.network>",
+  "homepage": "https://github.com/PlatONnetwork/platon-truffle/tree/1.0.0-develop/packages/contract#readme",
+  "repository": "https://github.com/PlatONnetwork/platon-truffle/tree/1.0.0-develop/packages/contract",
   "bugs": {
-    "url": "https://github.com/trufflesuite/truffle/issues"
+    "url": "https://github.com/PlatONnetwork/platon-truffle/issues"
   },
   "version": "4.1.1",
   "main": "index.js",

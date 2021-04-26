@@ -13,9 +13,9 @@
     "start": "node_modules/.bin/tsc --watch",
     "test": "cd test && npx truffle test"
   },
-  "repository": "https://github.com/trufflesuite/truffle/tree/master/packages/codec",
+  "repository": "https://github.com/PlatONnetwork/platon-truffle/tree/1.0.0-develop/packages/codec",
   "keywords": [
-    "ethereum",
+    "PlatON",
     "solidity",
     "contract",
     "state",
@@ -23,12 +23,12 @@
     "encoder",
     "abi"
   ],
-  "author": "Mike Seese and Harry Altman",
+  "author": "platonnetwork <npm@platon.network>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/trufflesuite/truffle/issues"
+    "url": "https://github.com/PlatONnetwork/platon-truffle/issues"
   },
-  "homepage": "https://github.com/trufflesuite/truffle#readme",
+  "homepage": "https://github.com/PlatONnetwork/platon-truffle#readme",
   "publishConfig": {
     "access": "public"
   },
@@ -52,6 +52,5 @@
   },
   "peerDependencies": {
     "truffle": "^5.0.14"
-  },
-  "gitHead": "b207efb3c1409746537293b3e0fc27350029188e"
+  }
 }

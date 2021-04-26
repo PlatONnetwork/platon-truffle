@@ -4,19 +4,19 @@
   "description": "Utilities for Solidity contracts",
   "main": "index.js",
   "scripts": {},
-  "repository": "https://github.com/trufflesuite/truffle/tree/master/packages/solidity-utils",
+  "repository": "https://github.com/PlatONnetwork/platon-truffle/tree/1.0.0-develop/packages/solidity-utils",
   "keywords": [
-    "ethereum",
-    "truffle",
+    "PlatON",
+    "platon-truffle",
     "solidity",
     "contracts"
   ],
-  "author": "Tim Coulter <tim@trufflesuite.com>",
+  "author": "platonnetwork <npm@platon.network>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/trufflesuite/truffle/issues"
+    "url": "https://github.com/PlatONnetwork/platon-truffle/issues"
   },
-  "homepage": "https://github.com/trufflesuite/truffle/tree/master/packages/solidity-utils#readme",
+  "homepage": "https://github.com/PlatONnetwork/platon-truffle/tree/1.0.0-develop/packages/solidity-utils#readme",
   "publishConfig": {
     "access": "public"
   }

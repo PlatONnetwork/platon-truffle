@@ -4,19 +4,19 @@
   "description": "Provision contract objects for use from multiple sources",
   "main": "index.js",
   "scripts": {},
-  "repository": "https://github.com/trufflesuite/truffle/tree/master/packages/provisioner",
+  "repository": "https://github.com/PlatONnetwork/platon-truffle/tree/1.0.0-develop/packages/provisioner",
   "keywords": [
-    "ethereum",
-    "truffle",
+    "PlatON",
+    "platon-truffle",
     "contracts",
     "provision"
   ],
-  "author": "Tim Coulter <tim@trufflesuite.com>",
+  "author": "platonnetwork <npm@platon.network>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/trufflesuite/truffle/issues"
+    "url": "https://github.com/PlatONnetwork/platon-truffle/issues"
   },
-  "homepage": "https://github.com/trufflesuite/truffle/tree/master/packages/provisioner#readme",
+  "homepage": "https://github.com/PlatONnetwork/platon-truffle/tree/1.0.0-develop/packages/provisioner#readme",
   "publishConfig": {
     "access": "public"
   }

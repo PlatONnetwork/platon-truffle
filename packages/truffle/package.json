@@ -1,11 +1,11 @@
 {
   "name": "platon-truffle",
-  "description": "Truffle - Simple development framework for PlatON",
-  "author": "consensys.net",
-  "homepage": "https://github.com/trufflesuite/truffle/",
-  "repository": "https://github.com/trufflesuite/truffle/tree/master/packages/truffle",
+  "description": "PlatON-Truffle - Simple development framework for PlatON",
+  "author": "platonnetwork <npm@platon.network>",
+  "homepage": "https://github.com/PlatONnetwork/platon-truffle/",
+  "repository": "https://github.com/PlatONnetwork/platon-truffle/tree/1.0.0-develop/packages/truffle",
   "bugs": {
-    "url": "https://github.com/trufflesuite/truffle/issues"
+    "url": "https://github.com/PlatONnetwork/platon-truffle/issues"
   },
   "version": "1.0.0",
   "main": "./build/library.bundled.js",
@@ -62,10 +62,8 @@
   },
   "authors": [
     {
-      "name": "Tim Coulter",
-      "email": "tim@timothyjcoulter.com",
-      "url": "https://github.com/tcoulter"
+      "name": "platonnetwork",
+      "email": "<npm@platon.network>"
     }
-  ],
-  "namespace": "consensys"
+  ]
 }

@@ -7,7 +7,7 @@ const command = {
       type: "boolean",
       default: false
     },
-    "wasm": {
+    wasm: {
       describe: "Running wasm contract test",
       type: "boolean",
       default: false
@@ -17,12 +17,12 @@ const command = {
       type: "string",
       default: ""
     },
-    "params": {
+    params: {
       describe: "wasm contract migrate init params",
       type: "string",
       default: ""
     },
-    "debug": {
+    debug: {
       describe: "Enable in-test debugging",
       type: "boolean",
       default: false
@@ -39,7 +39,7 @@ const command = {
   },
   help: {
     usage:
-      "truffle test [<test_file>] [--wasm] [--contract-name] [--params] [--compile-all] [--network <name>] [--verbose-rpc] [--show-events] [--debug] [--debug-global <identifier>]",
+      "platon-truffle test [<test_file>] [--wasm] [--contract-name] [--params] [--compile-all] [--network <name>] [--verbose-rpc] [--show-events] [--debug] [--debug-global <identifier>]",
     options: [
       {
         option: "<test_file>",
@@ -118,12 +118,12 @@ const command = {
     } else {
       Environment.detect(config).catch(done);
     }
-    if(options.wasm === true) {
+    if (options.wasm === true) {
       Environment.detect(config)
-          .then(async () => {
-            await runWasmTest(config);
-          })
-          .catch(done);
+        .then(async () => {
+          await runWasmTest(config);
+        })
+        .catch(done);
       return;
     }
 

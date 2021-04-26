@@ -17,7 +17,7 @@ const processInput = input => {
   const inputComponents = input.trim().split(" ");
   if (inputComponents.length === 0) return input;
 
-  if (inputComponents[0] === "truffle") {
+  if (inputComponents[0] === "platon-truffle") {
     return inputComponents.slice(1).join(" ");
   }
   return input.trim();

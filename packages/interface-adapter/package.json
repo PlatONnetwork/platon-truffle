@@ -1,11 +1,11 @@
 {
   "name": "@truffle/interface-adapter",
-  "description": "A library that provides an adapter layer for Truffle to interace with different types of networks/ledgers.",
+  "description": "A library that provides an adapter layer for PlatON-Truffle to interace with different types of networks/ledgers.",
   "license": "MIT",
-  "homepage": "https://github.com/trufflesuite/truffle#readme",
-  "repository": "https://github.com/trufflesuite/truffle/tree/master/packages/interface-adapter",
+  "homepage": "https://github.com/PlatONnetwork/platon-truffle#readme",
+  "repository": "https://github.com/PlatONnetwork/platon-truffle/tree/1.0.0-develop/packages/interface-adapter",
   "bugs": {
-    "url": "https://github.com/trufflesuite/truffle/issues"
+    "url": "https://github.com/PlatONnetwork/platon-truffle/issues"
   },
   "version": "0.4.0",
   "main": "dist/index.js",

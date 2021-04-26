@@ -4,19 +4,19 @@
   "description": "Simple module that allows native Error objects to be extended",
   "main": "index.js",
   "scripts": {},
-  "repository": "https://github.com/trufflesuite/truffle/tree/master/packages/error",
+  "repository": "https://github.com/PlatONnetwork/platon-truffle/tree/1.0.0-develop/packages/error",
   "keywords": [
-    "ethereum",
-    "truffle",
+    "PlatON",
+    "platon-truffle",
     "error",
     "extendable"
   ],
-  "author": "Tim Coulter <tim@trufflesuite.com>",
+  "author": "platonnetwork <npm@platon.network>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/trufflesuite/truffle"
+    "url": "https://github.com/PlatONnetwork/platon-truffle/issues"
   },
-  "homepage": "https://github.com/trufflesuite/truffle/tree/master/packages/error#readme",
+  "homepage": "https://github.com/PlatONnetwork/platon-truffle/tree/1.0.0-develop/packages/error#readme",
   "publishConfig": {
     "access": "public"
   }

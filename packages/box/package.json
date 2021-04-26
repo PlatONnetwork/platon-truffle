@@ -1,9 +1,9 @@
 {
   "name": "@truffle/box",
-  "description": "Truffle project boilerplate utility",
+  "description": "PlatON-Truffle project boilerplate utility",
   "license": "MIT",
-  "author": "g. nicholas d'andrea <gnidan@trufflesuite.com>",
-  "repository": "https://github.com/trufflesuite/truffle/tree/master/packages/box",
+  "author": "platonnetwork <npm@platon.network>",
+  "repository": "https://github.com/PlatONnetwork/platon-truffle/tree/1.0.0-develop/packages/box",
   "version": "1.0.47",
   "main": "dist/box.js",
   "scripts": {
@@ -34,10 +34,9 @@
     "typescript": "^3.6.3"
   },
   "keywords": [
-    "boilerplate",
-    "ethereum",
+    "PlatON",
     "project",
-    "truffle"
+    "platon-truffle"
   ],
   "publishConfig": {
     "access": "public"

@@ -2,10 +2,10 @@
   "name": "@truffle/core",
   "description": "Core code for Truffle command line tool",
   "author": "consensys.net",
-  "homepage": "https://github.com/trufflesuite/truffle#readme",
-  "repository": "https://github.com/trufflesuite/truffle/tree/master/packages/core",
+  "homepage": "https://github.com/PlatONnetwork/platon-truffle#readme",
+  "repository": "https://github.com/PlatONnetwork/platon-truffle/tree/1.0.0-develop/packages/core",
   "bugs": {
-    "url": "https://github.com/trufflesuite/truffle/issues"
+    "url": "https://github.com/PlatONnetwork/platon-truffle/issues"
   },
   "version": "1.0.0",
   "bin": {
@@ -79,10 +79,8 @@
   },
   "authors": [
     {
-      "name": "Tim Coulter",
-      "email": "tim@trufflesuite.com",
-      "url": "https://github.com/tcoulter"
+      "name": "platonnetwork",
+      "email": "npm@platon.network"
     }
-  ],
-  "namespace": "consensys"
+  ]
 }

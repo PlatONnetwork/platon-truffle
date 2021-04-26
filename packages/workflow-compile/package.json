@@ -1,7 +1,7 @@
 {
   "name": "@truffle/workflow-compile",
   "version": "2.1.14",
-  "description": "Core workflow behavior for `truffle compile` command",
+  "description": "Core workflow behavior for `platon-truffle compile` command",
   "dependencies": {
     "@truffle/artifactor": "^4.0.40",
     "@truffle/compile-solidity": "^4.2.13",
@@ -17,13 +17,13 @@
   "scripts": {
     "test": "mocha"
   },
-  "repository": "https://github.com/trufflesuite/truffle/tree/master/packages/workflow-compile",
-  "author": "Truffle Suite <inquiry@trufflesuite.com>",
+  "repository": "https://github.com/PlatONnetwork/platon-truffle/tree/1.0.0-develop/packages/workflow-compile",
+  "author": "platonnetwork <npm@platon.network>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/trufflesuite/truffle/issues"
+    "url": "https://github.com/PlatONnetwork/platon-truffle/issues"
   },
-  "homepage": "https://github.com/trufflesuite/truffle/tree/master/packages/workflow-compile#readme",
+  "homepage": "https://github.com/PlatONnetwork/platon-truffle/tree/1.0.0-develop/packages/workflow-compile#readme",
   "publishConfig": {
     "access": "public"
   },
