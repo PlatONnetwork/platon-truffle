@@ -154,7 +154,7 @@ class Command {
           OS.EOL +
           "Usage: platon-truffle <command> [options]"
       )
-      .epilog("See more at https://platon-truffle.readthedocs.io/en/v0.1.0/")
+      .epilog("See more at https://platon-truffle.readthedocs.io/en/v1.1.1/")
       .showHelp();
   }
 }

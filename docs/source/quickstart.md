@@ -239,7 +239,7 @@ To interact with the contract, you can use the platon truffle console. The plato
    You will see the following prompt:
 
    ```
-   truffle(development)>
+   platon-truffle(development)>
    ```
 
 ``` note::
@@ -253,35 +253,35 @@ As of platon truffle v5, the console supports async/await functions, enabling mu
 * Begin by establishing both the deployed MetaCoin contract instance and the accounts created by either platon truffle's built-in blockchain:
 
   ```shell
-  truffle(development)> let instance = await MetaCoin.deployed()
-  truffle(development)> let accounts = await web3.platon.getAccounts()
+  platon-truffle(development)> let instance = await MetaCoin.deployed()
+  platon-truffle(development)> let accounts = await web3.platon.getAccounts()
   ```
 
 * Check the metacoin balance of the account that deployed the contract:
 
   ```shell
-  truffle(development)> let balance = await instance.getBalance(accounts[0])
-  truffle(development)> balance.toNumber()
+  platon-truffle(development)> let balance = await instance.getBalance(accounts[0])
+  platon-truffle(development)> balance.toNumber()
   ```
 
 * Transfer some metacoin from one account to another:
 
   ```shell
-  truffle(development)> instance.sendCoin(accounts[1], 500)
+  platon-truffle(development)> instance.sendCoin(accounts[1], 500)
   ```
 
 * Check the balance of the account that received the metacoin:
 
   ```shell
-  truffle(development)> let received = await instance.getBalance(accounts[1])
-  truffle(development)> received.toNumber()
+  platon-truffle(development)> let received = await instance.getBalance(accounts[1])
+  platon-truffle(development)> received.toNumber()
   ```
 
 * Check the balance of the account that sent the metacoin:
 
   ```shell
-  truffle(development)> let newBalance = await instance.getBalance(accounts[0])
-  truffle(development)> newBalance.toNumber()
+  platon-truffle(development)> let newBalance = await instance.getBalance(accounts[0])
+  platon-truffle(development)> newBalance.toNumber()
   ```
 
 ```eval_rst

@@ -31,7 +31,7 @@ This will look for a network definition called `development` in the configuratio
 When you load the console, you'll immediately see the following prompt:
 
 ```shell
-truffle(development)>
+platon-truffle(development)>
 ```
 
 This tells you you're running within a platon truffle console using the `development` network.

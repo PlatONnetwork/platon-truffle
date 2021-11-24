@@ -8,18 +8,18 @@
 ## Install nodejs
 
 ```bash
-$ wget https://nodejs.org/download/release/v10.12.0/node-v10.12.0-linux-x64.tar.gz
-$ sudo tar -zxvf node-v10.12.0-linux-x64.tar.gz -C /usr/local
-$ sudo ln -s /usr/local/node-v10.12.0-linux-x64/bin/* /usr/bin/
+$ wget https://nodejs.org/download/release/v10.18.1/node-v10.18.1-linux-x64.tar.gz
+$ sudo tar -zxvf node-v10.18.1-linux-x64.tar.gz -C /usr/local
+$ sudo ln -s /usr/local/node-v10.18.1-linux-x64/bin/* /usr/bin/
 $ node -v
-$ sudo chmod -R 777 /usr/local/node-v10.12.0-linux-x64/bin
-$ sudo chmod -R 777 /usr/local/node-v10.12.0-linux-x64/lib/node_modules/
+$ sudo chmod -R 777 /usr/local/node-v10.18.1-linux-x64/bin
+$ sudo chmod -R 777 /usr/local/node-v10.18.1-linux-x64/lib/node_modules/
 ```
 ## Install platon-truffle
 
 ```bash
-$ npm install -g platon-truffle@1.0.0
-$ sudo ln -s /usr/local/node-v10.12.0-linux-x64/bin/* /usr/bin/
+$ npm install -g platon-truffle@1.1.1
+$ sudo ln -s /usr/local/node-v10.18.1-linux-x64/bin/* /usr/bin/
 $ platon-truffle version
 ```
 
@@ -35,7 +35,7 @@ If you meeting this problem(Example: connect ECONNREFUSED 0.0.0.0:443), May be a
 ```
 ## Requirements
 
-* NodeJS v10.12.0 or later
+* NodeJS v10.18.1 or later
 * Ubuntu16.04 or later
 
 platon-truffle also requires that you have a running PlatON client which supports the standard JSON RPC API (which is nearly all of them). There are many to choose from, and some better than others for development. We'll discuss them in detail in the Choosing an PlatON client section.
