@@ -7,7 +7,7 @@
   "bugs": {
     "url": "https://github.com/PlatONnetwork/platon-truffle/issues"
   },
-  "version": "1.0.0",
+  "version": "1.1.1",
   "main": "./build/library.bundled.js",
   "bin": {
     "platon-truffle": "./build/cli.bundled.js"
